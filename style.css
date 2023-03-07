@@ -66,8 +66,14 @@ table {
 }
 .search > input{
    border-radius: 10px;
-   padding: 0 15px;
+   padding: 0 30px;
    
+}
+.ti-search {
+    position: absolute;
+    top: 20px;
+    left: 146vh;
+    font-size: 25px;
 }
 .anh {
     position: relative;
@@ -199,17 +205,24 @@ table {
     margin: 7px 0;
 }
 #your{
-    padding: 10px 10px;
+    padding: 10px 15px;
     border-radius: 15px;
     background-color: black;
     border: 1px solid #fff;
+    font-size: 20px;
+
+}
+.ti-email {
+    position: absolute;
+    top: 330vh;
+    left: 137vh;
 }
 .email > button{
     border-radius: 15px;
     padding: 10px 20px;
     background-color: #1b9b4c;
     margin-left: -30px;
-    font-size: 17px;
+    font-size: 20px;
 }
 .new {
     display: flex;
