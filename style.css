@@ -94,6 +94,10 @@ table {
     margin-top: 20px;
     font-weight: 500;
 }
+.ti-angle-double-down {
+    font-size: 15px;
+    margin-left: 10px;
+}
 .body {
     display: flex;
     justify-content: space-around;
@@ -142,8 +146,11 @@ table {
     margin: 20px 20px;
 }
 .best {
-    display: flex;
-    justify-content: center;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    /* display: flex;
+    justify-content: center; */
     background-color: rgb(255, 174, 0);
     padding: 5px;
     margin: 0 120px;
@@ -184,6 +191,10 @@ table {
     margin-top: 100px;
     padding: 100px;
     justify-content: space-around;
+}
+.ti-angle-down {
+    font-size: 15px;
+    margin-left: 10px;
 }
 .about > div{
     padding: 7px 0;
@@ -231,6 +242,7 @@ table {
     margin-left: -30px;
     font-size: 20px;
 }
+
 .new {
     display: flex;
     justify-content: space-around;
